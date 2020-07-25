@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+}
+
+.form-group.warning input{
+    border: 1px #EB594C solid;
+}
+
+.form-group.warning small{
+    color: #EB594C;
+}
+
+.row .col-6{
+    background-color: coral;
+    border: 1px solid #fff;
+}
+
+
+.card img{
+    height: 200px;
+}
+
+.card{
+    margin-top: 10px;
+}
+
+.first{
+    position: relative;
+}
+
+.col-alert{
+    position: fixed;
+    right: 0px;
+    top: 90px;
+    transform: translateX(250px);
+    transition: 0.5s linear;
+    z-index: 1000;
+}
+
+.col-alert.active{
+    transform: translateX(0);
+
+}
